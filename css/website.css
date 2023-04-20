@@ -1,9 +1,28 @@
-* {
-  font-family: Arial;
-}
+
 .main {
   text-align: center;
+  font-family:Helvetica, Arial, sans-serif;
+}
+.main h1 {
+  
+}
+.navbar {
+  display:inline-block;
 }
 .navbar li {
-  
+  float:left;
+  margin-right:60px;
+}
+.navbar a {
+  text-decoration:none;
+  color: #000000;
+  font-size:50px;
+}
+.navbar ul {
+  list-style-type: none;
+}
+body {
+  background-image:url("../fotos/achtergrond.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
 }
