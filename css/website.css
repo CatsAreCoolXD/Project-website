@@ -1,10 +1,23 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@500&display=swap');
 .main {
   text-align: center;
-  font-family:Helvetica, Arial, sans-serif;
+  font-family: 'Comme';
 }
-.main h1 {
-  
+.main2 {
+  font-family: 'Comme';
+}
+.main h1{
+  font-family: 'Bebas Neue';
+  font-size: 120px;
+}
+.main2 h1{
+  font-family: 'Bebas Neue';
+  font-size: 120px;
+}
+.kopje2 {
+  margin-top: -100px;
 }
 .navbar {
   display:inline-block;
@@ -17,6 +30,7 @@
   text-decoration:none;
   color: #000000;
   font-size:50px;
+  font-family: 'Darumadrop One';
 }
 .navbar ul {
   list-style-type: none;
@@ -25,4 +39,26 @@ body {
   background-image:url("../fotos/achtergrond.jpg");
   background-repeat:no-repeat;
   background-size:cover;
+}
+@keyframes navbarhover {
+  0%{
+    color:black;
+  }
+  100%{
+    color:rgb(200,255,0);
+  }
+}
+.navbar a:hover {
+  animation-name: navbarhover;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+#canvas {
+  text-align: right;
+  margin-top: -280px;
+}
+#uitleg {
+  overflow: hidden;
+  margin-right:1400px;
+  margin-top:-200px;
 }
