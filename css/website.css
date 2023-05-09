@@ -36,9 +36,10 @@
   list-style-type: none;
 }
 body {
-  background-image:url("../fotos/achtergrond.jpg");
+  background-image:url("achtergrond.jpg");
   background-repeat:no-repeat;
   background-size:cover;
+  background-color:white;
 }
 @keyframes navbarhover {
   0%{
