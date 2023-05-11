@@ -62,3 +62,7 @@ body {
   overflow: hidden;
   margin-top:-200px;
 }
+a {
+  color:blue;
+  text-decoration: none;
+}
