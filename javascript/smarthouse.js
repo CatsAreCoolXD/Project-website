@@ -21,13 +21,15 @@ function draw(){
   }
 }
 function mousePressed(){
-  if (mouseX > 230 && mouseX < 590){
-    if (mouseY > 70 && mouseY < 90){
+  if (mouseX > 260 && mouseX < 560){
+    if (mouseY > 40 && mouseY < 70){
       clicked = true;
       uitlegText.innerHTML = "Dit is de led strip. Dit is een lichtje wat aan gaat als je twee keer klapt.";
     }
-  } else if (mouseX > 50 && mouseX < 290){
-    if (mouseY > 430 && mouseY < 590){
+  }
+  if (mouseX > 90 && mouseX < 350){
+    if (mouseY > 440 && mouseY < 595){
+      clicked = true;
       uitlegText.innerHTML = "Dit is het bed. Dit bed is inklapbaar."
     }
   }
